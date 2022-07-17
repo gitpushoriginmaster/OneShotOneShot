@@ -1,0 +1,7 @@
+round_epochs,loss,mean_squared_error,kullback_leibler_divergence,reconstruction_loss_weight,encoder_num_conv_layers,latent_space_dim,conv_params_middle_kernel_size,conv_params_middle_activation,conv_params_end_kernel_size,conv_params_end_activation,learning_rate
+50,0.007445407741303955,0.007441846,0.035612367,0.01,6,3,(3, 3),tanh,6,relu,0.001
+50,0.00597942965105176,0.005977239,0.021910325,0.01,5,4,(6, 1),tanh,6,relu,0.001
+50,0.014823665299585887,0.014821276,0.023901079,0.0001,5,3,(6, 6),tanh,6,sigmoid,0.001
+50,0.006912269900952067,0.0069102095,0.020601202,0.001,4,2,(6, 3),relu,3,sigmoid,0.001
+50,0.008257362863847187,0.008255489,0.018728837,0.01,6,3,(3, 3),tanh,6,softplus,0.001
+50,0.00787657537630626,0.007875019,0.015566841,0.01,4,4,(6, 6),tanh,6,softplus,0.001

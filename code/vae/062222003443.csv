@@ -1,0 +1,2 @@
+round_epochs,loss,mean_squared_error,kullback_leibler_divergence,reconstruction_loss_weight,encoder_num_conv_layers,latent_space_dim,conv_params_middle_kernel_size,conv_params_middle_activation,conv_params_end_kernel_size,conv_params_end_activation
+100,1.0499632358551025,0.02515877,0.067249775,0.0001,5,3,(3, 1),relu,6,relu
